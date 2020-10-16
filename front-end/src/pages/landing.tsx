@@ -11,7 +11,7 @@ import logoImg from '../images/logo.svg';
 import { FiArrowRight } from 'react-icons/fi';
 
 
-function landing(){
+function Landing(){
     return(
     <div id="page-landing">
         <div className="content-wrapper">
@@ -38,4 +38,4 @@ de muitas crianças.</p>
     );
 }
 
-export default landing;
+export default Landing;

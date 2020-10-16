@@ -3,9 +3,13 @@ import 'express-async-errors';
 import './database/connection';
 import routes from './routes';
 import path from 'path';
+import cors from 'cors';
 import errorHandler from './errors/handler';
 
 const app = express();
+
+//conexão com o front
+app.use(cors());
 
 //leitura de json
 app.use(express.json());
